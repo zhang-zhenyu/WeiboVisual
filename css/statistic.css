@@ -1,0 +1,203 @@
+body{
+    border-color:#FF0000; 
+    border-style:dotted; 
+    border-width:1px; 
+    margin:0; 
+}
+
+div{
+    border-color:#00FF00; 
+    border-style:solid; 
+    border-width:1px; 
+}
+
+#head{
+    width:100%;
+    height: 45px;
+    background-color:white;
+    border-style:solid; 
+    border-width:0px;
+    /* position: fixed; */
+}
+#head div{
+    float: left;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0px;
+    color: gray;
+}
+
+#head #logo{
+    /* width: 10px; */
+    margin:2px 1.5% 2px 16%;
+    font-size: 26px;
+    height: 39px;
+    line-height: 39px;
+    color:#086ed5;
+}
+#head #search{
+    margin:2px 1.5% 2px 1%;
+    font-size: 15px;
+    width: 28%;
+    height: 39px;
+    line-height: 39px;
+}
+#head #firstPage{
+    /* width: 10px; */
+    margin:2px 1.5% 2px 1.5%;
+    font-size: 15px;
+    height: 39px;
+    line-height: 39px;
+    color:black;
+}
+#total{
+    margin:2px 1.5% 2px 1.5%;
+    font-size: 15px;
+    height: 39px;
+    line-height: 39px;
+}
+
+
+#head #messageBox{
+    margin:2px 16% 2px 1%;
+    float: right;
+    width: 16%;
+    padding: 0px;
+    height: 39px;
+}
+#messageBox .profile{
+    margin:2px 0px 2px 3%;
+    float: left;
+    width: 34px;
+}
+#messageBox .profile image{
+    height: 34px;
+    width: 34px;
+}
+#messageBox .nickname{
+    margin:2px 1% auto 1%;
+    font-size: 15px;
+    height: 34px;
+    line-height: 15px;
+    width: 76%;
+}
+#messageBox .nickname table tr td{
+    border-bottom-width:0px;
+}
+
+
+
+#mainDiv{
+    border-color:red; 
+    border-style:solid;
+    border-width:1px; 
+    width:50%; 
+    margin:0px 33% 30px 15%;
+    padding: 0px 1%;
+    color: black;
+}
+.panel_heading{
+    /* text-align: center; */
+    background-color: paleturquoise;
+    height: 38px;
+    /* line-height: 20px; */
+    font-size: 20px;
+    margin: 3px auto 1px auto;
+    padding-left: 20px;
+}
+
+#user_information{
+    margin-top: 10px;
+}
+#user_information table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-bottom: 4px;
+    background-color: transparent;
+    border-color: gray;
+    text-align: center;
+}
+#user_information table th,td{
+    border-bottom:1px solid #cccccc;
+}
+#user_information table tbody th{
+    width: 30%;
+    font-weight:bold;
+    /* text-align: left; */
+}
+#user_information table tbody motto{
+    width: 30%;
+    font-weight:bold;
+    /* text-align: left; */
+}
+
+#interests{
+    margin-top: 20px;
+}
+#long_interest{
+    width: 49%;
+    float: left;
+}
+#short_interest{
+    margin-left: 50%;
+    
+}
+.true_body{
+    height: 250px;
+
+}
+
+#time_statistic{
+    margin-top: 20px;
+}
+#time_time .owner_time{
+    width: 49%;
+    float: left;
+    height: 250px;
+}
+#time_time .transmit_time{
+    width: 49%;
+    margin-left: 50%;
+    height: 250px;
+}
+#time_interval .owner_interval{
+    width: 49%;
+    float: left;
+    height: 250px;
+}
+#time_interval .transmit_interval{
+    width: 49%;
+    margin-left: 50%;
+    height: 250px;
+}
+
+
+#function{
+    /* position: fixed;
+    top: 45px;
+    right: 16.5%; */
+    float: right;
+    width: 15.5%;
+    padding: 0px 0.2%;
+    color: #666666;
+    margin: 0px 16% 3px 0.5%;
+    /* text-align: center; */
+}
+
+.userlist .user{
+    /* height: 26px; */
+    width: 100%;
+    /* float: left; */
+}
+.userlist .user .list_profile{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.function_header{
+    font-weight: bold;
+    margin: 5px auto 5px auto;
+}
+

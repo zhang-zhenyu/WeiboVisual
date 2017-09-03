@@ -1,0 +1,99 @@
+
+#mainDiv{
+    border-color:red; 
+    border-style:solid;
+    border-width:1px; 
+    width:50%; 
+    margin:45px 33% auto 15%;
+    padding: 0px 1%;
+    color: black;
+}
+
+.action_header{
+    height: 36px;
+    margin-bottom: 5px;
+}
+.action_profile{
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin: 0px;
+}
+.action_header .header_information{
+    margin-left:38px;
+    height: 34px; 
+}
+.header_information .upper_layor{
+    height: 20px;
+}
+.upper_layor .header_name{
+    color: black;
+    font-weight: bold;  
+    line-height: 16px;
+    font-size: 16px;
+}
+.upper_layor .action_name{
+    color: gray;
+    font-size:14px;
+}
+
+.header_information .lower_layor{
+    height: 10px;
+}
+
+.header_time{
+    font-size: 10px;
+    color: gray;
+    line-height: 10px;
+}
+.header_location{
+    font-size: 10px;
+    color: gray;
+    line-height: 10px;
+}
+
+.footer{
+    height: 30px;
+}
+.footer div{
+    float: left;
+    width: 30%;
+    height: 28px;
+    text-align: center;
+}
+.footer .footer_transmit{
+    margin-right: 2.3%;
+}
+.footer .footer_comment{
+    margin-left: 2.2%;
+    margin-right: 2.2%;
+}
+.footer .footer_liked{
+    margin-left: 2.2%;
+}
+
+
+#function{
+    position: fixed;
+    top: 45px;
+    right: 16.5%;
+    width: 15%;
+    padding: 0px 0.2%;
+    color: #666666;
+    /* text-align: center; */
+}
+#class_view table{
+    text-align:center;
+}
+
+#userlist .user{
+    /* height: 26px; */
+    width: 100%;
+    /* float: left; */
+}
+#userlist .user .list_profile{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
